@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import family from './assets/family.png';
@@ -10,7 +9,7 @@ function App() {
 			<header className='App-header'>
 				<h1>Hello, World!</h1>
 				<h2>This is my first serverless AWS app!</h2>
-				<img src={family} className='App-logo' alt='logo' />
+				<img src={family} className='App-logo' alt='wife, daughter, and husband in fancy wedding attire' />
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
 				</p>
