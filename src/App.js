@@ -2,13 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import family from './assets/family.png';
+
 function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
 				<h1>Hello, World!</h1>
 				<h2>This is my first serverless AWS app!</h2>
-				<img src={logo} className='App-logo' alt='logo' />
+				<img src={family} className='App-logo' alt='logo' />
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
 				</p>
