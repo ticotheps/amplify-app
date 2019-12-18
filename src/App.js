@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import family from './assets/family.png';
 
 function App() {
 	return (
@@ -8,17 +9,19 @@ function App() {
 			<header className='App-header'>
 				<h1>Hello, World!</h1>
 				<h2>This is my first serverless AWS app!</h2>
-				<img src={logo} className='App-logo' alt='logo' />
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
+				<img
+					src={family}
+					className='App-logo'
+					alt='wife, daughter, and husband in fancy wedding attire'
+				/>
+				<p>Check out my portfolio at to see more cool projects!</p>
 				<a
 					className='App-link'
-					href='https://reactjs.org'
+					href='https://hellotico.com'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					Learn React
+					Tico's Portfolio
 				</a>
 			</header>
 		</div>
